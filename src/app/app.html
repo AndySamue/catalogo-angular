@@ -1,0 +1,15 @@
+@if (auth.sesion(); as sesion) {
+  <nav>
+    <strong>Catálogo</strong>
+    <a routerLink="/catalogo">Catálogo</a>
+    @if (auth.esAdmin()) {
+      <a routerLink="/admin">Administrar</a>
+    }
+    <span class="derecha">{{ sesion.usuario }} ({{ sesion.rol }})</span>
+    <button (click)="salir()">Salir</button>
+  </nav>
+}
+
+<main>
+  <router-outlet />
+</main>

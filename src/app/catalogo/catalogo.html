@@ -1,0 +1,18 @@
+<h2>Catálogo de productos</h2>
+
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Descripción</th>
+    <th>Precio</th>
+    <th>Stock</th>
+  </tr>
+  @for (p of productos(); track p.id) {
+    <tr>
+      <td>{{ p.nombre }}</td>
+      <td>{{ p.descripcion }}</td>
+      <td>$ {{ p.precio }}</td>
+      <td>{{ p.stock }}</td>
+    </tr>
+  }
+</table>
