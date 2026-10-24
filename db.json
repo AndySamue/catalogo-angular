@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Laptop",
+      "descripcion": "Laptop de 15 pulgadas",
+      "precio": 750,
+      "stock": 10
+    },
+    {
+      "id": "2",
+      "nombre": "Mouse",
+      "descripcion": "Mouse inalámbrico",
+      "precio": 15,
+      "stock": 50
+    },
+    {
+      "id": "3",
+      "nombre": "Teclado",
+      "descripcion": "Teclado mecánico",
+      "precio": 40,
+      "stock": 25
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "usuario": "admin",
+      "clave": "admin123",
+      "rol": "admin"
+    },
+    {
+      "id": "2",
+      "usuario": "usuario",
+      "clave": "user123",
+      "rol": "estandar"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
