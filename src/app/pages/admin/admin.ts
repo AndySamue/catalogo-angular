@@ -1,6 +1,6 @@
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { Producto, ProductoService } from '../producto.service';
+import { Producto, ProductoService } from '../../services/producto.service';
 
 @Component({
   selector: 'app-admin',

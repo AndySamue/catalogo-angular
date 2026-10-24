@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
-import { Login } from './login/login';
-import { Catalogo } from './catalogo/catalogo';
-import { Admin } from './admin/admin';
-import { adminGuard, authGuard } from './guards';
+import { Login } from './pages/login/login';
+import { Catalogo } from './pages/catalogo/catalogo';
+import { Admin } from './pages/admin/admin';
+import { adminGuard, authGuard } from './guards/guards';
 
 export const routes: Routes = [
   { path: 'login', component: Login },

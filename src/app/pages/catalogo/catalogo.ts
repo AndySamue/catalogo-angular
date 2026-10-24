@@ -1,5 +1,5 @@
 import { Component, inject, signal } from '@angular/core';
-import { Producto, ProductoService } from '../producto.service';
+import { Producto, ProductoService } from '../../services/producto.service';
 
 @Component({
   selector: 'app-catalogo',
